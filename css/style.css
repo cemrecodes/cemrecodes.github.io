@@ -9,13 +9,12 @@ h1{
 table {
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 /* .center {
     margin-left: auto;
     margin-right: auto;
   } */
-
 body{
     overflow: hidden;
     background: url(../images/bg1.jpg);
@@ -35,7 +34,7 @@ section{
     
     /* animation: animateBg 50s linear infinite; */
 }
-@keyframes animateBg {
+/* @keyframes animateBg {
     0%,100%
     {
         transform:scale(1);
@@ -44,7 +43,7 @@ section{
     {
         transform:scale(1.2);
     }
-}
+} */
 span{
     position: absolute;
     top: 50%;
