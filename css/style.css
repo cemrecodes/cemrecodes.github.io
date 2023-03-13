@@ -21,6 +21,23 @@ h1{
     color:azure;
     font-family: sans-serif;
 }
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding-left: var(--icon-space);
+  }
+  
+  li:before {
+    content: "\2605"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+  }
 table {
     margin-left: auto;
     margin-right: auto;
@@ -30,6 +47,14 @@ td{
     font-family: sans-serif;
     z-index: 2;
 }
+.shadow{
+    text-shadow: 2px 2px 5px #8F43EE;
+}
+.bgBlack{
+    background: rgba(0, 0, 0, 0.400);
+    /* text-shadow: 1px 1px 1px #8F43EE; */
+}
+
 /* .center {
     margin-left: auto;
     margin-right: auto;
