@@ -3,6 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+html { overflow-y: scroll; }
+/* Add a black background color to the top navigation */
+.topnav {
+    position:fixed;
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    background-color: rgba(0, 0, 0, 0.653);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:azure;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #8F43EE;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #321c4d;
+    color: white;
+  }
 .left{
     float: left;
 }
@@ -14,12 +47,24 @@
     /* border: 2px solid #73AD21; */
 
 }
+.center {
+    text-align: center;
+}
 tr>td {
     padding-bottom: 0.75em;
 }
 h1{
     color:azure;
     font-family: sans-serif;
+}
+footer{
+    color:azure;
+    font-family: sans-serif;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.653);
 }
 ul {
     --icon-space: 1.3em;
