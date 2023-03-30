@@ -6,7 +6,7 @@
     <link rel="icon" href="images/pixel-cat.gif">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body class="bg">
     <div id="page-container">
     <div class="topnav">
         <a class="active" href="#home">Home</a>
@@ -22,6 +22,8 @@
                 <div class="flex-container">
                     <div class="flex-box">
                         <h1 style="font-size:300%;" class="shadow">Cemre Şenyuva</h1>
+                        <!-- HTML !-->
+  <button class="button-6" role="button"onclick="changeBg()">Wanna Change Background?</button>
                     </div>
                 <div class="flex-box">
                     <img class="right rcorners" src="images/me.jpg" alt="Me" height="250" width="250">
@@ -67,15 +69,14 @@
         </tr>
     </table>
     <section>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
     </section>
     </div>
     <footer id="footer">
@@ -88,5 +89,20 @@
             </div>
     </footer>
     </div>
+
+
+    
+<script>
+    function changeBg() {
+        if(document.body.classList.contains('bg')){
+            document.body.classList.remove('bg');
+            document.body.classList.add('new-bg');
+        }
+        else{
+            document.body.classList.add('bg');
+            document.body.classList.remove('new-bg');
+        }
+    }
+    </script>
 </body>
 </html>
