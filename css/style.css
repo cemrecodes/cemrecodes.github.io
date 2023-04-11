@@ -1,6 +1,5 @@
-body{   
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background-size: cover; 
 }
 
 .bg{
@@ -81,19 +80,29 @@ h1{
     font-family: sans-serif;
 }
 
-.footer{
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-top: 60px;
+    padding-bottom: 100px;    /* Footer height */
+}
+
+#footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    bottom: 0px;
-    left: 0px; 
-    right: 0px; 
+    position: absolute;
+    bottom: 0;
     color:azure;
     font-family: sans-serif;
-    width: 100%;
+    width: 10%;
     height: 100px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.653);
+    
 }
 
 .copyright {
@@ -149,7 +158,8 @@ td{
 tr {
     color: white;
 }
-section{
+
+.star-section{
     position: absolute;
     top: 0;
     left: 0;
@@ -159,7 +169,7 @@ section{
     background-position-x: center;
 }
 
-.star-section{
+.star{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -170,6 +180,7 @@ section{
     box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1)  ;
     animation:  animate 3s linear infinite;
 }
+
 .star::before{
     content: '';
     position: absolute;
