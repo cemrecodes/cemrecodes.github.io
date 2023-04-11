@@ -20,6 +20,10 @@ h4{
     text-shadow: 2px 2px 5px #201a28;
 }
 
+#bgButton{
+    
+}
+
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -57,11 +61,11 @@ ul {
     padding: 0;
 }
   
-li {
+.starred {
     padding-left: var(--icon-space);
 }
   
-li:before {
+.starred:before {
     content: "\2605"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;

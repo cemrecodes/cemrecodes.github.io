@@ -7,13 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="bg">
-    <div class="topnav">
+    <nav class="topnav">
+          <a class="active" href="#home">Home</a></
+          <a href="#about">About</a>
+          <a href="#exp">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a id="bgButton" onclick="changeBg()">Change Background</a>
+      </nav>
+    <!-- <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#exp">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-    </div>
+        <button id="bgButton" onclick="changeBg()">Change Background</button>
+    </div> -->
 
 <main>
     <section id="home" class="section-style">
@@ -50,9 +59,9 @@
         <h1 class="shadow">work experience</h1>
         <div class="text">
             <ul class="bgBlack">
-                <li>Vakifbank General Directorate of Intelligence System -
+                <li class="starred">Vakifbank General Directorate of Intelligence System -
                     <i>Intern</i>
-                </li>
+                <li class="starred">
                     <i>and more to come soon... 🚀</i>
             </ul>  
         </div>
@@ -62,13 +71,13 @@
         <h1 class="shadow" id="knowledge">knowledge</h1>
         <div class="text">
             <ul class="bgBlack">                
-                <li>Java</li>
-                <li>Python</li>
-                <li>C</li> 
-                <li>SQL</li>
-                <li>Angular</li>
-                <li>Nextjs</li>
-                <li>HTML & CSS</li>
+                <li class="starred">Java</li>
+                <li class="starred">Python</li>
+                <li class="starred">C</li> 
+                <li class="starred">SQL</li>
+                <li class="starred">Angular</li>
+                <li class="starred">Nextjs</li>
+                <li class="starred">HTML & CSS</li>
             </ul>
         </div>  
     </section>
