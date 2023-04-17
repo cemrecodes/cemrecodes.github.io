@@ -19,7 +19,7 @@ h4{
     margin: 2px;
     text-shadow: 2px 2px 5px #201a28;
 }
-
+  
 #bgButton{
     
 }
@@ -70,18 +70,8 @@ h4{
     width: var(--icon-space);
 }
 
-.topnav {
-    z-index: 2;
-    position:fixed;
-    top:0px; 
-    left:0px; 
-    right:0px; 
-    background-color: rgba(0, 0, 0, 0.653);
-    overflow: hidden;
-}
-  
 /* Style the links inside the navigation bar */
-.topnav a {
+.navbar-nav a {
     float: left;
     color:azure;
     font-family: sans-serif;
@@ -92,13 +82,13 @@ h4{
 }
   
 /* Change the color of links on hover */
-.topnav a:hover {
+.navbar-nav a:hover {
     background-color: #8F43EE;
     color: black;
 }
   
  /* Add a color to the active/current link */
-.topnav a.active {
+.navbar-nav a.active {
    background-color: #321c4d;
    color: white;
 }
