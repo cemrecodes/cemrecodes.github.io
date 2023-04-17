@@ -54,15 +54,12 @@ h4{
     text-align: left;
     margin-left: 30%;
 }
-
-ul {
-    --icon-space: 1.3em;
-    list-style: none;
-    padding: 0;
-}
   
 .starred {
     padding-left: var(--icon-space);
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;    
 }
   
 .starred:before {
@@ -149,24 +146,6 @@ h1{
     margin-bottom:0;
     font-size:14px;
     opacity:0.6;
-}
-
-ul {
-    --icon-space: 1.3em;
-    list-style: none;
-    padding: 0;
-}
-  
-li {
-    padding-left: var(--icon-space);
-}
-  
-li:before {
-    content: "\2605"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: calc( var(--icon-space) * -1 );
-    width: var(--icon-space);
 }
 
 .shadow{
