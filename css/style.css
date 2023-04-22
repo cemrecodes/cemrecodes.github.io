@@ -6,6 +6,66 @@ body {
     background-size: cover;
     background-position: center;
 }
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	/* cursor: pointer; */
+	/* padding: 25px 80px; */
+	display: inline-block;
+	/* margin: 15px 30px; */
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	/* font-weight: 700; */
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Button 1b */
+.btn-1b:after {
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: rgba(155, 88, 249, 0.3);
+}
+
+.btn-1b:hover,
+.btn-1b:active {
+	color: rgba(155, 88, 249, 0.3);
+}
+
+.btn-1b:hover:after,
+.btn-1b:active:after {
+	height: 100%;
+}
+
 
 
 .bg{
