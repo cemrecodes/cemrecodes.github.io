@@ -7,6 +7,9 @@ body {
     background-position: center;
 }
 
+.icons{
+    align-items: right;
+}
 /* STAR ICON  */
 .hi-icon-star:before {
     content: "\2605"; /* FontAwesome Unicode */
