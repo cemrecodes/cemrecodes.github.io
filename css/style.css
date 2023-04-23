@@ -16,6 +16,8 @@ body {
     grid-template-columns: repeat(2, 400px);
     grid-template-rows: repeat(4, 300px);
     grid-gap: 10px;
+    display: flex;
+  flex-direction: column;
 }
   
 .grid-item {
@@ -37,7 +39,6 @@ body {
     align-items: center;
     display: flex; /* flex kutusu olarak ayarlayın */
     flex-direction: column; /* yalnızca mobil için dikey yönde düzenleme */
-
 }
 
 .projects-box-right{
@@ -68,6 +69,15 @@ a {
 
 a img {
     border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .caption img {
+    opacity: 1;
+    }
+    .caption::after, .caption::before {
+    display: none;
+    }
 }
 
 .caption {
@@ -341,6 +351,8 @@ h4{
 .flex-box{
     width: 45%;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #home{
