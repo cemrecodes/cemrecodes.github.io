@@ -22,6 +22,8 @@ body {
     position: relative;
     overflow: hidden;
 }
+
+
     
 .projects-section{
     height:180vh;
@@ -35,6 +37,11 @@ body {
 
 .projects-box-left{
     width: 45%;
+}
+
+.projects-box-left h1 {
+    padding-top: 5%;
+    padding-bottom: 95%;
 }
 
 
