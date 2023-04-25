@@ -1,0 +1,10 @@
+#game-over {
+    font-size: 32px;
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+canvas {
+    border: 1px solid black;
+}
